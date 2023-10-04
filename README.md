@@ -19,3 +19,12 @@ myEnsemble = RegressionDeepEnsemble(BaseNet=CRISPRnet, dataset=myData,
 myEnsemble.train_ensemble(n_epochs=20)
 myEnsemble.predict(inputs = (test_S, test_F))
 ```
+There is also a built in tool for visualisation of uncertainties: 
+
+```python
+myEnsemble.plot_uncertainties(inputs=(S_test, F_test), 
+                              true_vals = y_test, plot_means=False,
+                              lower=0.01, upper=0.99)
+```
+
+![image](https://github.com/robsalomone/DeepRegressionEnsembles-CRISPRon/img.png)
