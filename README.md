@@ -24,7 +24,7 @@ There is also a built in tool for visualisation of uncertainties:
 ```python
 myEnsemble.plot_uncertainties(inputs=(S_test, F_test), 
                               true_vals = y_test, plot_means=False,
-                              lower=0.01, upper=0.99)
+                              lower=0.01, upper=0.99, n_samples=500)
 ```
 
 ![image](img.png)
