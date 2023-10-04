@@ -27,4 +27,4 @@ myEnsemble.plot_uncertainties(inputs=(S_test, F_test),
                               lower=0.01, upper=0.99)
 ```
 
-![image](https://github.com/robsalomone/DeepRegressionEnsembles-CRISPRon/img.png)
+![image](img.png)
