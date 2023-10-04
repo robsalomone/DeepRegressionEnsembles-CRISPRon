@@ -9,7 +9,7 @@ Accompanying the model is a custom `DataSet` class for the case where a single m
 Use is reasonably simple (illustrated below). 
 
 ```python
-myData = Seqs_and_Features(train_S,train_F, train_y)
+myData = Seqs_and_Features(train_S, train_F, train_y)
 
 myEnsemble = RegressionDeepEnsemble(BaseNet=CRISPRnet, dataset=myData,
                                     n_estimators=10, batch_size=100,
