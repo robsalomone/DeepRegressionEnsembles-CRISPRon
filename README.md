@@ -7,7 +7,7 @@ by data integration and deep learning." Nature communications 12.1 (2021): 3238.
 
 Accompanying the model is a custom `DataSet` class for the case where a single model input is `(sequence, features)`, where `sequence` is a vector-valued sequence, and `features` is a vector of features, as is the case for CRISPRon.  
 
-Just running the cells that define the custom classes, and then use is reasonably simple. 
+Just run the cells that define the custom classes, and then use is reasonably simple. 
 
 ```python
 myData = Seqs_and_Features(train_S, train_F, train_y)
